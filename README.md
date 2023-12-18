@@ -1,1 +1,0 @@
-# jeremytrinidad.github.io
