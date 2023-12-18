@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    min-height: 100vh;
+    background: #1a313a;
+}
+html{
+    scroll-behavior: smooth;
+}
+.menu{
+    position: fixed;
+    width: 60px;
+    height: 100vh;
+    background: #fff;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.menu:hover{
+    width: 300px;
+}
+.menu ul {
+    position: relative;
+    height: 100vh;
+}
+.menu ul li {
+    list-style: none;
+}
+.menu ul li:hover{
+    background: #f3f3f3;
+}
+.menu ul li a{
+    position: relative;
+    display: flex;
+    white-space: nowrap;
+    text-decoration: none;
+}
+.menu ul li a .icon{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 60px;
+    height: 60px;
+    font-size: 1.5em;
+    color: #333;
+}
+.menu ul li a .text{
+    position: relative;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+.menu ul li.logo{
+    margin-bottom: 100px;
+}
+.menu ul li.logo:hover{
+    background: #fff;
+}
+.menu ul li.logo .icon{
+    font-size: 2em;
+}
+.menu ul li.logo .text{
+    font-weight: 500;
+}
+.bottom{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.bottom .picme{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.bottom .picme img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    object-fit: cover;
+}
+.containerabout{
+    height: 500px;
+    min-width: 10vw;
+    margin-top: 50px;
+    margin-left: 475px;
+
+}
+.content{
+    margin-left: 70px;
+    padding: 5px;
+    color: #f3f3f3;
+}
+.contentname{
+    align-items: center;
+    margin-top: 50px;
+}
+.contentforname{
+    text-indent: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-right: 100px;
+
+}
+h1.name{
+    font-weight: 600;
+    font-size: 43px;
+}
+h2{
+    font-weight: 300;
+    font-size: 20px;
+}
+.pic{
+    margin-top: -500px;
+    margin-left: 150px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.picimg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.containertitle{
+    margin-top: 40px;
+    margin-left: 50px;
+    height: 400px;
+    width: 400px;
+}
+.projected{
+    font-weight: 600;
+    font-size: 39px;
+    text-transform: uppercase;
+    text-align: right;
+}
+.containerabout2{
+   
+    margin-top: -385px;
+    margin-left: 470px;
+    align-items: center;
+    min-width: 10vw;
+}
+.aboutothers{
+    font-weight: 300;
+    font-size: 17px;
+    text-align: justify;
+    margin-right: 100px;
+
+}
+
+.containertitle2{
+    margin-top: 40px;
+    margin-left: 50px;
+    height: 400px;
+    width: 400px;
+
+}
+.coffee{
+    font-weight: 600;
+    font-size: 39px;
+    text-transform: uppercase;
+    text-align: right;
+}
+.containerabout3{
+
+    margin-top: -385px;
+    margin-left: 470px;
+    align-items: center;
+    min-width: 10vw;
+}
+.aboutotherscoffee{
+    font-weight: 300;
+    font-size: 17px;
+    text-align: justify;
+    margin-right: 100px;
+}
+
+.contactcontainer{
+    margin-top: 15%;
+    min-width: 10vh;
+    margin-bottom: 20px;
+    font-size: 20px;
+    
+    text-align: center;
+}
+
+.iconcontainer{
+  min-width: 10vh;
+   
+   margin-bottom: 50px;
+   text-align: center;
+  
+}
+.sociaicons i{
+    color:#FFF;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    font-size: 50px;
+    position: relative;
+    letter-spacing: 55px;
+    text-align: center;
+    
+}
+.sociaicons i:hover{
+   opacity: 1;
+   color: #0e4b63;
+}
+
+.pic2{
+    margin-top: 5%;
+    margin-left: 50px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 10%;
+    float: left;
+    padding: 5px;
+}
+.picimg2{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+.majorcontainer{
+    margin-top: 5%;
+}
+.majorcontainer2{
+    margin-bottom: 5%;
+}
+
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .spacingpic{
+    min-width: 10vw;
+  }
+  .spacingpic2{
+   justify-content: center;
+   align-items: center;
+   display: flex;
+  }
+
+  .alignment{
+   
+    min-width: 10vh;
+   
+  }
