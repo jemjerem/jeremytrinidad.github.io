@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #1a313a;
+}
+.portfolio{
+    padding: 10px;
+    padding-left: 20px;
+    color: #EFEFEF;
+    font-size: 18px;
+}
+.navigation{
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1a313a;
+}
+.slide-container{
+    max-width: 700px;
+    width: 100%;
+    padding: 40px 0; 
+}
+
+.slide-content{
+    margin: 0 120px;
+}
+.card{
+    height: 550px;
+    border-radius: 30px;
+    background-color: #FFF;
+}
+.image-content, .card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+}
+
+.image-content{
+    position: relative;
+    row-gap: 5px;
+    padding: 25px 0;
+}
+.overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #13252c;
+    border-radius: 25px 25px 0 25px;
+}
+.overlay::before,
+.overlay::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    height: 40px;
+    width: 40px;
+    background-color: #13252c;
+}
+.overlay::after{
+    border-radius: 0 25px 0 0;
+    background-color: #FFF;
+}
+.card-image{
+    position: relative;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background: #FFF;
+    padding: 3px;
+
+}
+.card-image .card-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    
+}
+.name{
+    font-size: 30px;
+    font-weight: 500;
+    color: #13252c
+}
+.description{
+    font-size:18px;
+    color: #494848;
+    text-align: center;
+    padding: 5px;
+}
+.descripcontact{
+    font-size: 16px;
+    color: #494848;
+    margin-top: 20px;
+}
+.descrip{
+    font-size: 12px;
+    color: #707070;
+    text-align: center;
+    padding: 0 0 10px;
+}
+.icon{
+    color: #13252c;
+    font-size: 30px;
+}
+.sociaicons i{
+    color:#1a313a;
+    opacity: 0.6;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    font-size: 30px;
+    position: relative;
+    margin-right: 10px;
+    
+    
+}
+.sociaicons i:hover{
+   opacity: 1;
+   color: #13252c;
+}
+.button{
+    border: 3px solid #13252c;
+    border-radius: 20px;
+    font-size: 12px;
+    color: #13252c;
+    padding: 4px 12px;
+    background-color: #FFF;
+    margin: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.button:hover{
+    background: #13252c;
+    color: #FFF;
+}
+.swiper-button-next,
+.swiper-button-prev{
+    color: #EFEFEF;
+}
+.swiper-button-next:hover,
+.swiper-button-prev:hover{
+    color: #13252c;
+}
+.swiper-pagination-bullet-active{
+    background-color: #EFEFEF;
+}
